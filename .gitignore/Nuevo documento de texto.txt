@@ -1,0 +1,57 @@
+# Archivo .gitignore para Papelería PRISMA
+
+# Entorno virtual
+venv/
+env/
+.venv/
+
+# Archivos de configuración sensibles
+config.json
+*.env
+.env
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.coverage
+.pytest_cache/
+
+# Archivos de base de datos locales (si usas SQLite)
+*.db
+*.sqlite
+*.sqlite3
+
+# Reportes generados (opcional - puedes incluirlos si quieres)
+reportes/*.pdf
+
+# Logs
+*.log
+logs/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backups
+*.bak
+*.backup
+
+# Archivos temporales
+tmp/
+temp/
+*.tmp
+
+# Archivos de Windows
+*.lnk
+ehthumbs.db

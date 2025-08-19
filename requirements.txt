@@ -1,0 +1,11 @@
+# Dependencias para Papelería PRISMA
+# Instalar con: pip install -r requirements.txt
+
+# Base de datos MySQL
+mysql-connector-python>=8.0.0
+
+# Generación de PDFs
+reportlab>=3.6.0
+
+# GUI ya incluida con Python (tkinter)
+# Fecha y tiempo ya incluidas con Python (datetime)

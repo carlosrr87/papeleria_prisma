@@ -1,0 +1,29 @@
+{
+    "database": {
+        "host": "localhost",
+        "port": 3306,
+        "database": "papeleria_prisma",
+        "user": "root",
+        "password": ""
+    },
+    "app": {
+        "name": "Papelería PRISMA",
+        "version": "1.0.0",
+        "company": "PRISMA",
+        "debug": true
+    },
+    "ui": {
+        "theme": "default",
+        "font_size": 10,
+        "window_maximized": true
+    },
+    "reports": {
+        "output_path": "./reports/",
+        "company_info": {
+            "name": "PAPELERÍA PRISMA",
+            "address": "Dirección de la papelería",
+            "phone": "Teléfono de contacto",
+            "email": "info@papeleriaprisma.com"
+        }
+    }
+}
